@@ -1,0 +1,29 @@
+body {
+    background-color: aquamarine;
+  }
+  .blue {
+    color: rgb(217, 22, 68);
+  }
+  .green {
+    color: blueviolet;
+    
+  }
+  #welcome {
+    background-color: rgb(245, 238, 229);
+
+  }
+
+#about {
+  background-color: rgb(128, 197, 246);
+}
+  
+  #welcome, #about {
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 5px;
+/*nested selector*/
+  }
+  #welcome p {
+    font-size: 20px;
+
+  }
