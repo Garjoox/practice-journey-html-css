@@ -1,0 +1,23 @@
+.box{
+      
+   
+    border-width: 3px;
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: solid;
+  }
+  .box{
+    font-size: 11px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 19;
+  }
+/*pading shorthand = top/bottom right/left*/
+  .box{
+    padding: 10px 10px 10px 20px ;
+  }
+/*margin shorthand = top/bottom right/left*/
+  .box{
+    margin: 10px 600px 20px 20px ;
+  }
+
