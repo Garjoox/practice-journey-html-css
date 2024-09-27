@@ -1,0 +1,30 @@
+a{
+    color: rgb(61, 220, 111);
+    text-decoration: dashed;
+   
+  }
+  a:hover{
+    color: blanchedalmond;
+  }
+  a:active{
+    color: blueviolet;
+    
+  
+  }
+  .btn{
+    color: #07020b;
+    background: rgb(247, 138, 227);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .btn:hover{
+    color: rgb(9, 10, 9);
+    background: rgb(151, 243, 178);
+    
+
+  }
+
