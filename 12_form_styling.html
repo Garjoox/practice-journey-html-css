@@ -5,104 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Form Styling</title>
-    <link
+    <link rel="stylesheet" href="12_form_styling.css">
       href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        /* 
-        -May want to add "border-box for "box-sizing so padding does not affect width
-        -Reset margin and padding 
-       */
-      }
-
-      body {
-        /* 
-          -Background color is #344a72
-        */
-      }
-
-      a {
-        /* 
-        Underlined links are ugly :)
-       */
-      }
-
-      #container {
-        /* 
-        -Remember, margin: auto on left and right will center a block element 
-        -I would also set a "max-width" for responsiveness
-        -May want to add some padding
-        */
-      }
-
-      .form-wrap {
-        /* 
-          This is the white area around the form and heading, etc
-        */
-      }
-
-      .form-wrap h1,
-      .form-wrap p {
-        /* 
-          May want to center these
-        */
-      }
-
-      .form-wrap .form-group {
-        /* 
-          Each label, input is wrapped in .form-group
-        */
-      }
-
-      .form-wrap .form-group label {
-        /* 
-          Label should be turned into a block element
-        */
-      }
-
-      .form-wrap .form-group input {
-        /* 
-          Inputs should reach accross the .form-wrap 100% and have some padding
-        */
-      }
-
-      .form-wrap button {
-        /* 
-          Button should wrap accross 100% and display as block
-          Background color for button is #49c1a2
-        */
-      }
-
-      .form-wrap button:hover {
-        /* 
-          Hover background color for button is #37a08e
-        */
-      }
-
-      .form-wrap .bottom-text {
-        /* 
-          Bottom text is smaller
-        */
-      }
-
-      footer {
-        /* 
-        Should be centered
-       */
-      }
-
-      footer a {
-        /* 
-          Footer link color is #49c1a2
-        */
-      }
-    </style>
+      
+      rel="stylesheet"/>
   </head>
   <body>
     <div id="container">
       <div class="form-wrap">
+       
         <h1>Sign Up</h1>
         <p>It's free and only takes a minute</p>
         <form>
@@ -119,8 +30,8 @@
             <input type="email" name="email" id="email" />
           </div>
           <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" />
+            <label>Password</label>
+            <input type="password" required/>
           </div>
           <div class="form-group">
             <label for="password2">Confirm Password</label>
@@ -138,5 +49,6 @@
         <p>Already have an account? <a href="#">Login Here</a></p>
       </footer>
     </div>
+  
   </body>
 </html>

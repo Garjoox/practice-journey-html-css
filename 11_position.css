@@ -1,0 +1,45 @@
+.box{
+    width: 100px;
+    height: 100px;
+  }
+  #box-1{
+    background: rgba(146, 49, 237, 0.516);
+    position: relative;
+    top: 45px;
+    left: 45px;
+  }
+  #box-2{
+    background: brown;
+    position: absolute;
+    top: 65px;
+    left: 79px;
+  }
+  #box-3{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    background: rgb(5, 188, 63);
+  }
+  #box-4{
+    background: rgb(211, 249, 113);
+    position: fixed;
+    bottom: 300px;
+    left: 340px;
+    z-index: 1;
+  }
+  #box-5{
+    background: rgb(125, 123, 219);
+    position: sticky;
+    bottom: 179px;
+    left: 170px;
+    
+  }
+  .container{
+    width: 500px;
+    height: 450px;
+    background: rgb(213, 97, 14);
+   
+
+  }
+  
+ 
